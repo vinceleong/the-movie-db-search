@@ -1,0 +1,20 @@
+interface Movie {
+  adult: boolean;
+  backdrop_path: string;
+  genre_ids: string[];
+  id: number;
+  original_language: string;
+  original_title: string;
+  poster_path: string;
+  release_date: string;
+  title: string;
+  video: boolean;
+  vote_average: number;
+  vote_count: number;
+  overview: string;
+}
+
+interface Genre {
+  id: number;
+  name: string;
+}
