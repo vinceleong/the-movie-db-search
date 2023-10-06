@@ -10,6 +10,10 @@ const nextConfig = {
       },
     ],
   },
+  env: {
+    THE_MOVIE_DB_HOST: process.env.THE_MOVIE_DB_HOST,
+    THE_MOVIE_DB_API_KEY: process.env.THE_MOVIE_DB_API_KEY,
+  },
 };
 
 module.exports = nextConfig;
